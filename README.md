@@ -3,5 +3,5 @@ Static Website created for [Lune Lounge](https://www.instagram.com/lunedubai) co
 
 Implements the Lune Lounge brand and hosted on Github Pages.
 
-##To Build
+## To Build
 Serve as static webpage, index.html is standard entry point, all navigation scripts are handled client side.
