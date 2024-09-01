@@ -12,11 +12,11 @@ function toggleNavMenu() {
     }
 };
 
-const navLinks = document.querySelectorAll('div[class^="navLink"]:not([class*="1"])');
+const navLinks = document.querySelectorAll('div[class^="navLink"]:not([class*="1"],[class*="2"])');
 console.log(navLinks);
 navLinks.forEach( (navLink) => {
     navLink.addEventListener("click", e => {
-        alert("Feature not implemented (ask Michael)");
+        alert("This would navigate");
     });
 });
 
