@@ -20,6 +20,9 @@ html, body {
 a {
     cursor: pointer;
 }
+h2 {
+    font-size: 3vw;
+}
 
 #pageContainer {
     position: relative;
@@ -196,6 +199,10 @@ div[id^="discoverContainer"] {
     margin-top: 20vh;
     margin-left: auto; margin-right: auto;
     justify-content:  space-between;
+} #contactPane > div > h1 {
+    font-size: 2vw
+} #contactPane > div > *:not(h1) {
+    font-size: 1em
 }
 
 div[class^="navLink"] {
