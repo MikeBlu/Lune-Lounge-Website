@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Aligarh';
-    src: url("Lune-Lounge-Website/resources/Aligarh-Light.ttf") format('truetype');
+    src: url("../resources/Aligarh-Light.ttf") format('truetype');
     font-weight: lighter;
     font-style: normal;
 }
@@ -91,7 +91,7 @@ a {
     position: relative;
     justify-content: center;
     margin-top: 22vh;
-    background: url(Lune-Lounge-Website/public/Dubai_Banner-sharp.jpg);
+    background: url(../public/Dubai_Banner-sharp.jpg);
     background-position: center;
     background-repeat: no-repeat;
     height: 450px;
@@ -150,7 +150,7 @@ div[id^="discoverContainer"] {
     border-radius: 2px; */
 } #menuCard > div {height: 100%; width: 50%;}
 #cardImage {
-    background: url(Lune-Lounge-Website/public/Square_Sample.jpg);
+    background: url(../public/Square_Sample.jpg);
     background-size: cover;
 }
 #cardCaption {
@@ -211,7 +211,7 @@ a[class^="link"] {
     border-bottom-style: solid; border-bottom-width: 2px;
 }
 .fa-instagram {
-    background-image: url(Lune-Lounge-Website/resources/Instagram_Glyph_Black.png);
+    background-image: url(../resources/Instagram_Glyph_Black.png);
     height: 5vh;
     width: 5vh;
     background-size: contain;
