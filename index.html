@@ -5,11 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lune Lounge</title>
     <link rel="stylesheet" href="css/index.css">
+    <script defer type="text/javascript" src="/js/index.js"></script>
 </head>
 <body>
     <div id="pageContainer">
+        <div id="navMenu">
+            <div style="margin-top: 20vh; margin-left: 20vh;">
+                <div class="navLink1" onclick="toggleNavMenu(false)">BACK</div>
+                <div class="navLink2">ABOUT US</div>
+                <div class="navLink3">MENU</div>
+                <div class="navLink4">CONTACT</div>
+            </div>
+        </div>
         <div id="navBar">
-            <div id="stackMenu">
+            <div id="stackMenu" onclick="toggleNavMenu(true)">
                 <div>
                     <div class="stackMenu_Child"></div>
                     <div class="stackMenu_Child"></div>
@@ -23,7 +32,7 @@
         </div>
         <div id="discoverContainer1">
             <div id="discoverText11">
-                <h1>Discover Luxury</h1>
+                <h1>DISCOVER LUXURY</h1>
                 <p>Unlock an unforgettable atmosphere, well crafted desserts, and a top notch selection of in-house coffee. A retreat you'll want to visit again.</p>
                 <a class="link45">LEARN ABOUT US</a>
             </div>
@@ -38,7 +47,7 @@
             <div id="cardImage">
             </div>
             <div id="cardCaption">
-                <h2>PROVIDING A COFFEE AND DESSERT SELECTION LIKE NO OTHER IN THE MIDDLE EAST</h2>
+                <h2>PROVIDING A COFFEE AND DESSERT SELECTION LIKE NO OTHER IN THE MIDDLE EAST. LUXURY DINING OPTIONS AND STUNNING VIEWS AWAIT.</h2>
                 <a class="link82">CHECK OUR MENU</a>
             </div>
         </div>
@@ -47,26 +56,42 @@
                 <img src="/public/Cafe_Portrait.jpg"></img>
             </div>
             <div id="discoverText12">
-                <h1>Discover Luxury</h1>
-                <p>Unlock an unforgettable atmosphere, well crafted desserts, and a top notch selection of in-house coffee. A retreat you'll want to visit again.</p>
-                <a class="link45">LEARN ABOUT US</a>
+                <h1>ENJOY VARIETY</h1>
+                <p>From our Ethiopian to Brazilian roasts, there exists an extensive selection on our menu to match your tastebuds and awaken your senses.</p>
+                <a class="link45">FIND US</a>
             </div>
             <div id="cafeLandscape">
                 <img src="/public/Cafe_Landscape.jpg"></img>
             </div>
         </div>
         <div id="contactPane">
-            <div id="about">
-                
-            </div>
             <div id="contact">
-
+                <h1>CONTACT</h1>
+                <p>LUNE LOUNGE
+                    <br>
+                    Al Wasl Road
+                    <br>
+                    Jumeirah - Jumeirah 2,
+                    <br>
+                    Dubai
+                </p>
+            </div>
+            <div id="about">
+                <h1>TIMINGS</h1>
+                <p>HOURS
+                    <br>
+                    MON-THUR:&emsp;6AM - 2AM
+                    <br>
+                    FRI-SUN:&emsp;7AM - 4AM
+                </p>
             </div>
             <div id="social">
-
+                <h1>SOCIALS</h1>
+                <div class="fa-instagram" onclick="navInstagram('https://www.instagram.com/lunedubai/?hl=en')"></div>
             </div>
-            <div id="mailingList">
-                
+            <div id="roadMap">
+                <h1>OUR ROADMAP</h1>
+                <a class="link45">Follow future projects</a>
             </div>
         </div>
     </div>
