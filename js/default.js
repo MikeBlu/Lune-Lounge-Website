@@ -36,5 +36,5 @@ window.addEventListener('scroll', e => {
             ("none");
 });
 pageLogo.addEventListener("click", e => {
-    window.location.href = "/Lune-Lounge-Website/index.html";
+    window.location.href = "https://mikeblu.github.io/Lune-Lounge-Website/index.html";
 });
