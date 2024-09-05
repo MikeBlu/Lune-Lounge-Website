@@ -36,5 +36,5 @@ window.addEventListener('scroll', e => {
             ("none");
 });
 pageLogo.addEventListener("click", e => {
-    window.location.href = "";
+    window.location.href = "/";
 });
